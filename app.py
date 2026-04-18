@@ -1,5 +1,5 @@
 import streamlit as st
-from utils.game_logic import init_board, move, is_solved
+from game_logic import init_board, move, is_solved
 
 st.set_page_config(page_title="Brain Puzzle Game", layout="centered")
 
